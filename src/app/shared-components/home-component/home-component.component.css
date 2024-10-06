@@ -1,0 +1,28 @@
+.cartItem {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Ensures items wrap if the container width is too small */
+    gap: 20px; /* Adds spacing between items */
+} 
+ 
+.itm{
+     flex: 1; /*Allows each item to grow and shrink  */ 
+     min-width: 250px; /*Sets a minimum width for each item*/ 
+} 
+
+
+.circular-input {
+  width: 60px;                /* Set the width of the circle */
+  height: 60px;               /* Set the height of the circle to match the width */
+  background-color: black;    /* Set the background color to black */
+  color: white;               /* Set the text color to white for contrast */
+  border: none;               /* Remove the default border */
+  border-radius: 50%;         /* Make the input field circular */
+  text-align: center;         /* Center align the number inside the input */
+  font-size: 16px;            /* Adjust the font size as needed */
+  outline: none;              /* Remove the default focus outline */
+}
+
+.circular-input:focus {
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* Add a slight glow on focus */
+}

@@ -1,0 +1,9 @@
+
+<p>cart-item works!</p>
+<div class="cartItem"  >
+    <div class="itm"  *ngFor="let item of cartList">
+        <!-- <app-card [itemName] = "item.itemName" [itemDetail] = "item.details" [itemPrice] = "item.price" [itemImage] = "item.Image" [itemId] = "item.Id"></app-card> -->
+        <app-card [item] = "item" [disableAddtoCart] = false></app-card>
+
+    </div>
+</div>

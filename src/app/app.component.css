@@ -1,0 +1,15 @@
+   .cont{ 
+    width: 98vw;
+    padding: 2px;
+    margin: 4px;
+    border: 2px solid black;
+    height: 40vw; 
+    overflow-y: scroll; /*Enable vertical scrolling */
+}  
+
+.header .footer{ 
+    width: 98vw;
+    padding: 2px;
+    margin: 4px;
+    border: 2px solid black;
+}

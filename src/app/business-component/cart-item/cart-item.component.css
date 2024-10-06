@@ -1,0 +1,6 @@
+
+ 
+.itm{
+     flex: 1; /*Allows each item to grow and shrink  */ 
+     min-width: 250px; /*Sets a minimum width for each item*/ 
+} 

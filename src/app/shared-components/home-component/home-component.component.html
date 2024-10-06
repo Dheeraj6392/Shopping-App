@@ -1,0 +1,8 @@
+<input type="number" class="circular-input" [(ngModel)] = "itemAdded">
+<div class="cartItem"  >
+    <div class="itm"  *ngFor="let item of cartItems">
+        <!-- <app-card [itemName] = "item.itemName" [itemDetail] = "item.details" [itemPrice] = "item.price" [itemImage] = "item.Image" [itemId] = "item.Id"></app-card> -->
+        <app-card [item] = "item" ></app-card>
+    
+    </div>
+</div>
